@@ -27,10 +27,6 @@ Missing heavy artifacts (trained weights, full logs, large run folders) and real
 Top-level tools
 - `compare_standard_metrics.py`, `compare_extra_metrics.py`: Merge/compare metrics across strategies and export tables.
 - `convert_road_to_coco.py`, `visualize_coco_annotations.py`: Data conversion/visualization utilities.
-- `domain-shifts/`: Domain-shift analysis
-  - `compute_domain_shifts.py`
-  - `domain_shift_summary.json`, `domain_stats.csv` (small summaries, versioned)
-  - `run.log` (optional to keep)
 - `standard_metrics_comparison.{csv,json}`, `extra_metrics_comparison.{csv,json}`: Cross-strategy summary tables.
 - `yolo12s.pt`: Base weights (large; excluded by default – see Drive link above).
 
@@ -112,7 +108,6 @@ Included (in Git)
 - Source code and configs (`*.py`, `*.yaml`, `configs/`)
 - Lightweight metrics under `*/optimal_output/`: `continual_eval_matrix.{csv,json}`, `continual_learning_metrics.json`, `standard_metrics.json`, `analysis_extended_ap/*.json`
 - Selected report images from `*/optimal_output/runs/`: `results.png`, `BoxPR_curve.png`, `confusion_matrix_normalized.png`, `labels.jpg`, `val_batch0_pred.jpg`, `train_batch0.jpg`, plus `args.yaml` and `results.csv`
-- Domain-shift summaries: `domain-shifts/domain_shift_summary.json`, `domain-shifts/domain_stats.csv`
 - Cross-strategy tables: `standard_metrics_comparison.{csv,json}`, `extra_metrics_comparison.{csv,json}`
 
 External (Google Drive; not versioned)
