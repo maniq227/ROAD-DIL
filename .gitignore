@@ -70,3 +70,6 @@ yolo12s.pt
 !YOLO-NAIVE/optimal_output/continual_eval_matrix.csv
 
 
+# Large root-level files to exclude
+YOLO_road_test_v1.0.json
+
