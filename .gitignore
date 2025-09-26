@@ -38,6 +38,8 @@ env/
 yolo12s.pt
 
 # Re-include selective report assets across all strategies
+!**/optimal_output/
+!**/optimal_output/runs/
 !**/optimal_output/runs/results.png
 !**/optimal_output/runs/results.csv
 !**/optimal_output/runs/BoxPR_curve.png
@@ -72,4 +74,5 @@ yolo12s.pt
 
 # Large root-level files to exclude
 YOLO_road_test_v1.0.json
+road_test_v1.0.json
 
