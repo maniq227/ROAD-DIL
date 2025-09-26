@@ -1,0 +1,170 @@
+{
+  "final": {
+    "ACC_final": 0.7361698303138955,
+    "ACC_mean_over_time": 0.5603690152336793,
+    "BWT_mean": 0.14207741923363656,
+    "BWT_per_domain": {
+      "sunny": 0.5629568632068817,
+      "overcast": 0.0017283844830954243,
+      "night": 0.003624429244569183,
+      "snowy": 0.0
+    },
+    "Forgetting_mean": 0.0004212366242213883,
+    "Forgetting_per_domain": {
+      "sunny": 0.0012854680610383529,
+      "overcast": 0.00039947843584720033,
+      "night": 0.0,
+      "snowy": 0.0
+    },
+    "FWT_mean": -0.016316899602196178,
+    "FWT_per_domain": {
+      "overcast": -0.08874308172715034,
+      "night": -0.07021925172130127,
+      "snowy": 0.11001163464186309
+    },
+    "ExtendedAP_final_per_domain": {
+      "sunny": {
+        "AP@0.20": 0.939641,
+        "AP@0.50": 0.918317,
+        "AP@0.75": 0.760938,
+        "AP@[0.50:0.90]": 0.735714,
+        "AP@[0.50:0.95]": 0.673193
+      },
+      "overcast": {
+        "AP@0.20": 0.964289,
+        "AP@0.50": 0.937086,
+        "AP@0.75": 0.75694,
+        "AP@[0.50:0.90]": 0.746593,
+        "AP@[0.50:0.95]": 0.689621
+      },
+      "night": {
+        "AP@0.20": 0.969477,
+        "AP@0.50": 0.955567,
+        "AP@0.75": 0.773741,
+        "AP@[0.50:0.90]": 0.768956,
+        "AP@[0.50:0.95]": 0.705603
+      },
+      "snowy": {
+        "AP@0.20": 0.975066,
+        "AP@0.50": 0.962896,
+        "AP@0.75": 0.895552,
+        "AP@[0.50:0.90]": 0.889807,
+        "AP@[0.50:0.95]": 0.844892
+      }
+    },
+    "ExtendedAP_final_avg": {
+      "AP@0.20": 0.96211825,
+      "AP@0.50": 0.9434665,
+      "AP@0.75": 0.7967927499999999,
+      "AP@[0.50:0.90]": 0.7852675,
+      "AP@[0.50:0.95]": 0.72832725
+    }
+  },
+  "rows": [
+    {
+      "experience": 1,
+      "sunny_mAP50_95": 0.11701691567129939,
+      "sunny_mAP50": 0.20821322670529982,
+      "overcast_mAP50_95": 0.0575156925976982,
+      "overcast_mAP50": null,
+      "overcast_AP20": null,
+      "overcast_AP50": null,
+      "overcast_AP75": null,
+      "overcast_AP50_90": null,
+      "overcast_AP50_95": null,
+      "night_mAP50_95": null,
+      "night_mAP50": null,
+      "night_AP20": null,
+      "night_AP50": null,
+      "night_AP75": null,
+      "night_AP50_90": null,
+      "night_AP50_95": null,
+      "snowy_mAP50_95": null,
+      "snowy_mAP50": null,
+      "snowy_AP20": null,
+      "snowy_AP50": null,
+      "snowy_AP75": null,
+      "snowy_AP50_90": null,
+      "snowy_AP50_95": null,
+      "avg_seen_mAP50_95": 0.11701691567129939
+    },
+    {
+      "experience": 2,
+      "sunny_mAP50_95": 0.6812592469392194,
+      "sunny_mAP50": 0.9242046438532118,
+      "overcast_mAP50_95": 0.7006159104033663,
+      "overcast_mAP50": 0.940596897526878,
+      "night_mAP50_95": 0.01815819023456404,
+      "night_mAP50": null,
+      "night_AP20": null,
+      "night_AP50": null,
+      "night_AP75": null,
+      "night_AP50_90": null,
+      "night_AP50_95": null,
+      "snowy_mAP50_95": null,
+      "snowy_mAP50": null,
+      "snowy_AP20": null,
+      "snowy_AP50": null,
+      "snowy_AP75": null,
+      "snowy_AP50_90": null,
+      "snowy_AP50_95": null,
+      "avg_seen_mAP50_95": 0.6909375786712928
+    },
+    {
+      "experience": 3,
+      "sunny_mAP50_95": 0.6793810681177099,
+      "sunny_mAP50": 0.9315624451316252,
+      "overcast_mAP50_95": 0.702743773322309,
+      "overcast_mAP50": 0.9493473805517058,
+      "night_mAP50_95": 0.7099303673946696,
+      "night_mAP50": 0.9557435812182968,
+      "snowy_mAP50_95": 0.31332922192150636,
+      "snowy_mAP50": null,
+      "snowy_AP20": null,
+      "snowy_AP50": null,
+      "snowy_AP75": null,
+      "snowy_AP50_90": null,
+      "snowy_AP50_95": null,
+      "avg_seen_mAP50_95": 0.6973517362782294
+    },
+    {
+      "experience": 4,
+      "sunny_mAP50_95": 0.679973778878181,
+      "sunny_mAP50": 0.9190558470761719,
+      "overcast_mAP50_95": 0.7023442948864618,
+      "overcast_mAP50": 0.9426170264860035,
+      "night_mAP50_95": 0.7135547966392388,
+      "night_mAP50": 0.9586432542452019,
+      "snowy_mAP50_95": 0.8488064508517008,
+      "snowy_mAP50": 0.9643152341992731,
+      "avg_seen_mAP50_95": 0.7361698303138955
+    }
+  ],
+  "domains": [
+    "sunny",
+    "overcast",
+    "night",
+    "snowy"
+  ],
+  "num_experiences": 4,
+  "ACC_final": 0.7361698303138955,
+  "ACC_mean_over_time": 0.5603690152336793,
+  "BWT_mean": 0.1894365589781821,
+  "BWT_per_domain": {
+    "sunny": 0.5629568632068817,
+    "overcast": 0.0017283844830954243,
+    "night": 0.003624429244569183
+  },
+  "Forgetting_mean": -0.0006464942492278766,
+  "Forgetting_per_domain": {
+    "sunny": 0.0012854680610383529,
+    "overcast": 0.00039947843584720033,
+    "night": -0.003624429244569183
+  },
+  "FWT_mean": 0.11049580405202347,
+  "FWT_per_domain": {
+    "overcast": 0.0,
+    "night": 0.01815819023456404,
+    "snowy": 0.31332922192150636
+  }
+}

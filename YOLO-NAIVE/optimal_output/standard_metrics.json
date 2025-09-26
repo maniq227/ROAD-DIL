@@ -1,0 +1,23 @@
+{
+  "domains": [
+    "sunny",
+    "overcast",
+    "night",
+    "snowy"
+  ],
+  "num_experiences": 4,
+  "ACC_final": 0.2905392950597787,
+  "ACC_mean_over_time": 0.47325022101519676,
+  "BWT_mean": -0.6251651836961325,
+  "BWT_per_domain": {
+    "sunny": -0.6763201848589645,
+    "overcast": -0.6156205207403815,
+    "night": -0.5835548454890513
+  },
+  "Forgetting_mean": 0.6251651836961325,
+  "Forgetting_per_domain": {
+    "sunny": 0.6763201848589645,
+    "overcast": 0.6156205207403815,
+    "night": 0.5835548454890513
+  }
+}

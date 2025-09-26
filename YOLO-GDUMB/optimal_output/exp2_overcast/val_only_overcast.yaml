@@ -1,0 +1,3 @@
+train: C:\Users\19334871\Downloads\ROAD-CL\YOLO-GDUMB\optimal_output\exp2_overcast\train_memory.txt
+val: C:\Users\19334871\Downloads\ROAD-CL\YOLO-ER\datasets\overcast\val.txt
+names: ['Ped', 'Car', 'Cyc', 'Mobike', 'MedVeh', 'LarVeh', 'Bus', 'EmVeh', 'TL', 'OthTL']

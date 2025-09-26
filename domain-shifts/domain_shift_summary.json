@@ -1,0 +1,92 @@
+{
+  "domains": [
+    "sunny",
+    "overcast",
+    "night",
+    "snowy"
+  ],
+  "split": "val",
+  "max_images": 200,
+  "per_domain_stats": {
+    "sunny": {
+      "lum_mean": 144.98566449381508,
+      "lum_std": 83.57082676896219,
+      "sat_mean": 66.35339017333985,
+      "sat_std": 52.262122778539016,
+      "entropy_gray": 6.742485491327198,
+      "edge_density": 0.05878656412760416,
+      "grad_mag_mean": 48.25013324737549,
+      "orb_kp_per_mp": 406.90104166666674,
+      "height_mean": 960.0,
+      "width_mean": 1280.0,
+      "num_images_used": 200
+    },
+    "overcast": {
+      "lum_mean": 120.36840411376954,
+      "lum_std": 75.31480686382291,
+      "sat_mean": 51.15660119628907,
+      "sat_std": 31.1453434434877,
+      "entropy_gray": 7.408392438547273,
+      "edge_density": 0.06374534098307291,
+      "grad_mag_mean": 56.17993232727051,
+      "orb_kp_per_mp": 406.90104166666674,
+      "height_mean": 960.0,
+      "width_mean": 1280.0,
+      "num_images_used": 200
+    },
+    "night": {
+      "lum_mean": 83.32059933675129,
+      "lum_std": 69.88802094986903,
+      "sat_mean": 178.13713655598957,
+      "sat_std": 59.15296140942093,
+      "entropy_gray": 7.540471669021522,
+      "edge_density": 0.03628360188802083,
+      "grad_mag_mean": 46.50716358184815,
+      "orb_kp_per_mp": 406.90104166666674,
+      "height_mean": 960.0,
+      "width_mean": 1280.0,
+      "num_images_used": 200
+    },
+    "snowy": {
+      "lum_mean": 75.59696168619791,
+      "lum_std": 77.45845535042035,
+      "sat_mean": 99.60918225504557,
+      "sat_std": 40.19849994416107,
+      "entropy_gray": 7.011488079143245,
+      "edge_density": 0.05599833170572917,
+      "grad_mag_mean": 40.994173526763916,
+      "orb_kp_per_mp": 406.90104166666674,
+      "height_mean": 960.0,
+      "width_mean": 1280.0,
+      "num_images_used": 200
+    }
+  },
+  "pairwise": {
+    "gray_hist_L1": {
+      "sunny": {
+        "sunny": 0.0,
+        "overcast": 0.2988830729166666,
+        "night": 0.5886733154296875,
+        "snowy": 0.8885805257161459
+      },
+      "overcast": {
+        "sunny": 0.2988830729166666,
+        "overcast": 0.0,
+        "night": 0.4864904785156251,
+        "snowy": 0.7951088053385418
+      },
+      "night": {
+        "sunny": 0.5886733154296875,
+        "overcast": 0.4864904785156251,
+        "night": 0.0,
+        "snowy": 0.5433317138671877
+      },
+      "snowy": {
+        "sunny": 0.8885805257161459,
+        "overcast": 0.7951088053385418,
+        "night": 0.5433317138671877,
+        "snowy": 0.0
+      }
+    }
+  }
+}

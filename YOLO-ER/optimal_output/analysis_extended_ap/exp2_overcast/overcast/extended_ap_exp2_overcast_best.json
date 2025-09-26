@@ -1,0 +1,11 @@
+{
+  "weights": "YOLO-ER\\optimal_output\\models\\exp2_overcast_best.pt",
+  "val_size": 599,
+  "metrics": {
+    "AP@0.20": 0.988813,
+    "AP@0.50": 0.982572,
+    "AP@0.75": 0.906674,
+    "AP@[0.50:0.90]": 0.872972,
+    "AP@[0.50:0.95]": 0.81183
+  }
+}

@@ -1,0 +1,27 @@
+Metric,Domain,YOLO-ER,YOLO-GDUMB,YOLO-NAIVE
+FWT_mean,,0.09505056563251836,0.11049580405202347,0.025015507937464213
+FWT_per_domain,sunny,,,
+FWT_per_domain,overcast,0.0,0.0,0.0
+FWT_per_domain,night,0.013178816712492054,0.01815819023456404,0.02880752590812983
+FWT_per_domain,snowy,0.27197288018506305,0.31332922192150636,0.046238997904262814
+ExtendedAP_final_avg,,"{""AP@0.20"": 0.95893525, ""AP@0.50"": 0.9452477499999999, ""AP@0.75"": 0.81143475, ""AP@[0.50:0.90]"": 0.7981125, ""AP@[0.50:0.95]"": 0.7438352500000001}","{""AP@0.20"": 0.96211825, ""AP@0.50"": 0.9434665, ""AP@0.75"": 0.7967927499999999, ""AP@[0.50:0.90]"": 0.7852675, ""AP@[0.50:0.95]"": 0.72832725}","{""AP@0.20"": 0.42721725, ""AP@0.50"": 0.39331550000000004, ""AP@0.75"": 0.30045325, ""AP@[0.50:0.90]"": 0.30485525, ""AP@[0.50:0.95]"": 0.2824985}"
+ExtendedAP_final_per_domain:AP@0.20,sunny,0.920126,0.939641,0.307008
+ExtendedAP_final_per_domain:AP@0.50,sunny,0.892896,0.918317,0.253896
+ExtendedAP_final_per_domain:AP@0.75,sunny,0.727456,0.760938,0.103562
+ExtendedAP_final_per_domain:AP@[0.50:0.90],sunny,0.711456,0.735714,0.135308
+ExtendedAP_final_per_domain:AP@[0.50:0.95],sunny,0.64961,0.673193,0.121806
+ExtendedAP_final_per_domain:AP@0.20,overcast,0.957738,0.964289,0.422338
+ExtendedAP_final_per_domain:AP@0.50,overcast,0.940838,0.937086,0.354053
+ExtendedAP_final_per_domain:AP@0.75,overcast,0.759557,0.75694,0.192562
+ExtendedAP_final_per_domain:AP@[0.50:0.90],overcast,0.74957,0.746593,0.209904
+ExtendedAP_final_per_domain:AP@[0.50:0.95],overcast,0.692555,0.689621,0.189016
+ExtendedAP_final_per_domain:AP@0.20,night,0.966471,0.969477,0.002975
+ExtendedAP_final_per_domain:AP@0.50,night,0.959911,0.955567,0.002343
+ExtendedAP_final_per_domain:AP@0.75,night,0.810451,0.773741,0.002137
+ExtendedAP_final_per_domain:AP@[0.50:0.90],night,0.790442,0.768956,0.001517
+ExtendedAP_final_per_domain:AP@[0.50:0.95],night,0.720814,0.705603,0.001365
+ExtendedAP_final_per_domain:AP@0.20,snowy,0.991406,0.975066,0.976548
+ExtendedAP_final_per_domain:AP@0.50,snowy,0.987346,0.962896,0.96297
+ExtendedAP_final_per_domain:AP@0.75,snowy,0.948275,0.895552,0.903552
+ExtendedAP_final_per_domain:AP@[0.50:0.90],snowy,0.940982,0.889807,0.872692
+ExtendedAP_final_per_domain:AP@[0.50:0.95],snowy,0.912362,0.844892,0.817807

@@ -1,0 +1,167 @@
+{
+  "strategies": [
+    "YOLO-ER",
+    "YOLO-GDUMB",
+    "YOLO-NAIVE"
+  ],
+  "FWT_mean": {
+    "YOLO-ER": 0.09505056563251836,
+    "YOLO-GDUMB": 0.11049580405202347,
+    "YOLO-NAIVE": 0.025015507937464213
+  },
+  "FWT_per_domain": {
+    "sunny": {
+      "YOLO-ER": null,
+      "YOLO-GDUMB": null,
+      "YOLO-NAIVE": null
+    },
+    "overcast": {
+      "YOLO-ER": 0.0,
+      "YOLO-GDUMB": 0.0,
+      "YOLO-NAIVE": 0.0
+    },
+    "night": {
+      "YOLO-ER": 0.013178816712492054,
+      "YOLO-GDUMB": 0.01815819023456404,
+      "YOLO-NAIVE": 0.02880752590812983
+    },
+    "snowy": {
+      "YOLO-ER": 0.27197288018506305,
+      "YOLO-GDUMB": 0.31332922192150636,
+      "YOLO-NAIVE": 0.046238997904262814
+    }
+  },
+  "ExtendedAP_final_avg": {
+    "YOLO-ER": {
+      "AP@0.20": 0.95893525,
+      "AP@0.50": 0.9452477499999999,
+      "AP@0.75": 0.81143475,
+      "AP@[0.50:0.90]": 0.7981125,
+      "AP@[0.50:0.95]": 0.7438352500000001
+    },
+    "YOLO-GDUMB": {
+      "AP@0.20": 0.96211825,
+      "AP@0.50": 0.9434665,
+      "AP@0.75": 0.7967927499999999,
+      "AP@[0.50:0.90]": 0.7852675,
+      "AP@[0.50:0.95]": 0.72832725
+    },
+    "YOLO-NAIVE": {
+      "AP@0.20": 0.42721725,
+      "AP@0.50": 0.39331550000000004,
+      "AP@0.75": 0.30045325,
+      "AP@[0.50:0.90]": 0.30485525,
+      "AP@[0.50:0.95]": 0.2824985
+    }
+  },
+  "ExtendedAP_final_per_domain": {
+    "sunny": {
+      "AP@0.20": {
+        "YOLO-ER": 0.920126,
+        "YOLO-GDUMB": 0.939641,
+        "YOLO-NAIVE": 0.307008
+      },
+      "AP@0.50": {
+        "YOLO-ER": 0.892896,
+        "YOLO-GDUMB": 0.918317,
+        "YOLO-NAIVE": 0.253896
+      },
+      "AP@0.75": {
+        "YOLO-ER": 0.727456,
+        "YOLO-GDUMB": 0.760938,
+        "YOLO-NAIVE": 0.103562
+      },
+      "AP@[0.50:0.90]": {
+        "YOLO-ER": 0.711456,
+        "YOLO-GDUMB": 0.735714,
+        "YOLO-NAIVE": 0.135308
+      },
+      "AP@[0.50:0.95]": {
+        "YOLO-ER": 0.64961,
+        "YOLO-GDUMB": 0.673193,
+        "YOLO-NAIVE": 0.121806
+      }
+    },
+    "overcast": {
+      "AP@0.20": {
+        "YOLO-ER": 0.957738,
+        "YOLO-GDUMB": 0.964289,
+        "YOLO-NAIVE": 0.422338
+      },
+      "AP@0.50": {
+        "YOLO-ER": 0.940838,
+        "YOLO-GDUMB": 0.937086,
+        "YOLO-NAIVE": 0.354053
+      },
+      "AP@0.75": {
+        "YOLO-ER": 0.759557,
+        "YOLO-GDUMB": 0.75694,
+        "YOLO-NAIVE": 0.192562
+      },
+      "AP@[0.50:0.90]": {
+        "YOLO-ER": 0.74957,
+        "YOLO-GDUMB": 0.746593,
+        "YOLO-NAIVE": 0.209904
+      },
+      "AP@[0.50:0.95]": {
+        "YOLO-ER": 0.692555,
+        "YOLO-GDUMB": 0.689621,
+        "YOLO-NAIVE": 0.189016
+      }
+    },
+    "night": {
+      "AP@0.20": {
+        "YOLO-ER": 0.966471,
+        "YOLO-GDUMB": 0.969477,
+        "YOLO-NAIVE": 0.002975
+      },
+      "AP@0.50": {
+        "YOLO-ER": 0.959911,
+        "YOLO-GDUMB": 0.955567,
+        "YOLO-NAIVE": 0.002343
+      },
+      "AP@0.75": {
+        "YOLO-ER": 0.810451,
+        "YOLO-GDUMB": 0.773741,
+        "YOLO-NAIVE": 0.002137
+      },
+      "AP@[0.50:0.90]": {
+        "YOLO-ER": 0.790442,
+        "YOLO-GDUMB": 0.768956,
+        "YOLO-NAIVE": 0.001517
+      },
+      "AP@[0.50:0.95]": {
+        "YOLO-ER": 0.720814,
+        "YOLO-GDUMB": 0.705603,
+        "YOLO-NAIVE": 0.001365
+      }
+    },
+    "snowy": {
+      "AP@0.20": {
+        "YOLO-ER": 0.991406,
+        "YOLO-GDUMB": 0.975066,
+        "YOLO-NAIVE": 0.976548
+      },
+      "AP@0.50": {
+        "YOLO-ER": 0.987346,
+        "YOLO-GDUMB": 0.962896,
+        "YOLO-NAIVE": 0.96297
+      },
+      "AP@0.75": {
+        "YOLO-ER": 0.948275,
+        "YOLO-GDUMB": 0.895552,
+        "YOLO-NAIVE": 0.903552
+      },
+      "AP@[0.50:0.90]": {
+        "YOLO-ER": 0.940982,
+        "YOLO-GDUMB": 0.889807,
+        "YOLO-NAIVE": 0.872692
+      },
+      "AP@[0.50:0.95]": {
+        "YOLO-ER": 0.912362,
+        "YOLO-GDUMB": 0.844892,
+        "YOLO-NAIVE": 0.817807
+      }
+    }
+  }
+}
