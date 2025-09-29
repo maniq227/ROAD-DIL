@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## ROAD-DIL: Domain-Incremental Learning for Road Scenes
 
 Domain-incremental learning (DIL) experiments for road-scene object detection across sequential domains: sunny → overcast → night → snowy. This repo organizes baselines and metrics for three strategies:
@@ -105,6 +104,20 @@ python compare_standard_metrics.py
 python compare_extra_metrics.py
 ```
 
+### Unseen per-domain tests (held-out)
+
+Evaluate final checkpoints for each strategy on held-out per-domain test sets and export summary tables.
+
+```bash
+python "Test Set/eval_unseen_tests.py" --imgsz 640 --batch 16
+```
+
+Outputs
+- Writes Ultralytics validation results under each strategy's `*/optimal_output/runs/`
+- Aggregates per-domain metrics to `Test Set/metrics/unseen_test_metrics.{json,csv}`
+- Comparison tables in `Test Set/metrics/standard_metrics_comparison.{json,csv}`
+  - `standard_metrics_comparison.json/csv`: concise comparison across strategies (e.g., ACC_final, ACC_mean_over_time, BWT_mean, Forgetting_mean, and per-domain variants) for quick benchmarking on unseen tests
+
 ---
 
 ## What is versioned vs external
@@ -144,7 +157,3 @@ If you must keep weights in the repo, use Git LFS or publish them as GitHub Rele
 Add your chosen license (e.g., MIT, Apache-2.0).
 
 
-=======
-# ROAD-DIL
-Domain incremental learning benchmark for autonmous driving
->>>>>>> ab5df300dcf7f7ac2768cbb197240883c84d8ce3
