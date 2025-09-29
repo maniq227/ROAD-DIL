@@ -1,0 +1,11 @@
+{
+  "weights": "YOLO-ER\\optimal_output\\models\\exp3_night_best.pt",
+  "val_size": 599,
+  "metrics": {
+    "AP@0.20": 0.971812,
+    "AP@0.50": 0.959325,
+    "AP@0.75": 0.823738,
+    "AP@[0.50:0.90]": 0.796183,
+    "AP@[0.50:0.95]": 0.733982
+  }
+}

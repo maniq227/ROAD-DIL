@@ -1,0 +1,11 @@
+{
+  "weights": "YOLO-ER\\optimal_output\\models\\exp4_snowy_best.pt",
+  "val_size": 599,
+  "metrics": {
+    "AP@0.20": 0.957738,
+    "AP@0.50": 0.940838,
+    "AP@0.75": 0.759557,
+    "AP@[0.50:0.90]": 0.74957,
+    "AP@[0.50:0.95]": 0.692555
+  }
+}

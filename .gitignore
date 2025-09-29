@@ -1,0 +1,118 @@
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.python-version
+
+# Large/local data and archives (kept external)
+Archives/
+road-real-annotations/
+Test Set/
+runs/
+outputs/
+yolo*.pt
+*.pt
+
+# YOLO strategy heavy artifacts (keep only curated metrics and a few figures)
+YOLO-*/optimal_output/exp*/
+YOLO-*/optimal_output/models/
+YOLO-*/optimal_output/tensorboard_logs/
+YOLO-*/optimal_output/training_output.log
+YOLO-*/optimal_output/eta*.log
+
+# Exclude most of runs, re-include selected summary assets below
+YOLO-*/optimal_output/runs/*
+!YOLO-*/optimal_output/runs/args.yaml
+!YOLO-*/optimal_output/runs/results.csv
+!YOLO-*/optimal_output/runs/results.png
+!YOLO-*/optimal_output/runs/BoxPR_curve.png
+!YOLO-*/optimal_output/runs/confusion_matrix_normalized.png
+!YOLO-*/optimal_output/runs/labels.jpg
+!YOLO-*/optimal_output/runs/val_batch0_pred.jpg
+!YOLO-*/optimal_output/runs/train_batch0.jpg
+
+# Always ignore weights under runs
+YOLO-*/optimal_output/runs/weights/
+YOLO-*/optimal_output/runs/*train_batch*.jpg
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+*.tmp
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+
+# Python envs
+.venv/
+venv/
+env/
+
+# Checkpoints and large models
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.engine
+*.plan
+
+# Training artifacts (heavy)
+**/runs/
+**/tensorboard_logs/
+**/models/
+**/archive/
+**/archives/
+**/outputs/
+**/outputs_run_*/
+**/eta_*.log
+
+# Project-specific heavy folders to exclude by default
+/Archives/
+yolo12s.pt
+
+# Re-include selective report assets across all strategies
+!**/optimal_output/runs/
+!**/optimal_output/runs/results.png
+!**/optimal_output/runs/results.csv
+!**/optimal_output/runs/BoxPR_curve.png
+!**/optimal_output/runs/confusion_matrix_normalized.png
+!**/optimal_output/runs/labels.jpg
+!**/optimal_output/runs/val_batch0_pred.jpg
+!**/optimal_output/runs/train_batch0.jpg
+!**/optimal_output/runs/args.yaml
+
+# Still exclude in-run weights
+**/optimal_output/runs/weights/
+
+# Allow keeping lightweight metrics under per-strategy optimal_output
+!YOLO-ER/optimal_output/continual_eval_matrix.json
+!YOLO-ER/optimal_output/continual_learning_metrics.json
+!YOLO-ER/optimal_output/standard_metrics.json
+!YOLO-ER/optimal_output/analysis_extended_ap/*.json
+!YOLO-ER/optimal_output/continual_eval_matrix.csv
+
+!YOLO-GDUMB/optimal_output/continual_eval_matrix.json
+!YOLO-GDUMB/optimal_output/continual_learning_metrics.json
+!YOLO-GDUMB/optimal_output/standard_metrics.json
+!YOLO-GDUMB/optimal_output/analysis_extended_ap/*.json
+!YOLO-GDUMB/optimal_output/continual_eval_matrix.csv
+
+!YOLO-NAIVE/optimal_output/continual_eval_matrix.json
+!YOLO-NAIVE/optimal_output/continual_learning_metrics.json
+!YOLO-NAIVE/optimal_output/standard_metrics.json
+!YOLO-NAIVE/optimal_output/analysis_extended_ap/*.json
+!YOLO-NAIVE/optimal_output/continual_eval_matrix.csv
+
+

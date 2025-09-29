@@ -1,0 +1,3 @@
+train: C:\Users\19334871\Downloads\ROAD-CL\YOLO-ER\datasets\snowy\train.txt
+val: C:\Users\19334871\Downloads\ROAD-CL\YOLO-ER\datasets\snowy\val.txt
+names: ['Ped', 'Car', 'Cyc', 'Mobike', 'MedVeh', 'LarVeh', 'Bus', 'EmVeh', 'TL', 'OthTL']

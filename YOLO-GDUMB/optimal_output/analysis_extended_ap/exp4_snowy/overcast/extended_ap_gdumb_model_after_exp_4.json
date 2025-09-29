@@ -1,0 +1,11 @@
+{
+  "weights": "YOLO-GDUMB\\optimal_output\\models\\gdumb_model_after_exp_4.pt",
+  "val_size": 599,
+  "metrics": {
+    "AP@0.20": 0.964289,
+    "AP@0.50": 0.937086,
+    "AP@0.75": 0.75694,
+    "AP@[0.50:0.90]": 0.746593,
+    "AP@[0.50:0.95]": 0.689621
+  }
+}
