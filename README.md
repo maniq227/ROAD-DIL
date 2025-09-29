@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## ROAD-DIL: Domain-Incremental Learning for Road Scenes
 
 Domain-incremental learning (DIL) experiments for road-scene object detection across sequential domains: sunny → overcast → night → snowy. This repo organizes baselines and metrics for three strategies:
@@ -143,3 +144,7 @@ If you must keep weights in the repo, use Git LFS or publish them as GitHub Rele
 Add your chosen license (e.g., MIT, Apache-2.0).
 
 
+=======
+# ROAD-DIL
+Domain incremental learning benchmark for autonmous driving
+>>>>>>> ab5df300dcf7f7ac2768cbb197240883c84d8ce3
